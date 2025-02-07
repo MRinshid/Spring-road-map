@@ -11,9 +11,6 @@
             <bean id = "spellChecker" class = "org.bean.SpellChecker"/>
         </property>
     </bean>
-    <bean id="customEventPublisher" class="eventdemo.Publisher.CustomEventPublisher">
-        <property name="eventName" value="Custom Event Triggered"/>
-    </bean>
 
 
 </beans>
